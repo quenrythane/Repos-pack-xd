@@ -1,0 +1,18 @@
+{
+    "sourceFile": "Collect files name from directory and save to txt.py",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1647452801425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1647452801425,
+            "name": "Commit-0",
+            "content": "import os\r\n\r\npath = #\"E:\\YouTube\\.[Na telefonie]\\Biznes Od Początku\"\r\nfile_names_list = os.listdir(path)\r\ntxt_file = \"text.txt\"\r\n\r\nfile_names_text = \"\\n\".join([name for name in file_names_list])\r\nwith open(txt_file , \"w\", encoding='utf-8') as file:\r\n    file.write(file_names_text)\r\n\r\n"
+        }
+    ]
+}
