@@ -10,6 +10,6 @@ def naruto():
 
 heroes_list = [naruto(), naruto(), naruto()]
 # wylosuj 3 postacie i postuj je aby te największą liczbą wyrazów były pierwsze
-sorted_heroes = sorted(heroes_list, key=lambda hero: len(hero[2]), reverse=True)
+    sorted_heroes = sorted(heroes_list, key=lambda hero: len(hero[2]), reverse=True)
 for name, x, summary in sorted_heroes:
     print(name, len(summary))
